@@ -1,3 +1,11 @@
+# Title: Accelerated forgetting normative benchmark analysis
+# Author: Alessandro von Gal (ORCID: https://orcid.org/0000-0001-9189-6276)
+# Date: 2026-02-18
+# License: MIT
+# DOI: 
+# Description: Meta-analysis to establish a normative benchmark for one-week forgetting on the Rey Auditory Verbal Learning Test (RAVLT)
+# Dependencies: R >= 4.0.0, metafor
+
 library(metafor)
 data<- read.csv("data/preliminary_dataset.csv")
 
