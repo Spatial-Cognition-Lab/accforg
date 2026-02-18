@@ -31,12 +31,13 @@ The pre-registration document specifies:
 ---
 
 ## Repository structure
+```text
 accforg/
-│
-├── data/              # Raw or processed data
-├── outputs/           # Figures and outputs
+├── data/        # Raw or processed data
+├── outputs/     # Figures and outputs
+├── alf_preliminary.R  # Main analysis script
 └── README.md
-
+```
 ## Analysis
 
 All analyses were conducted in **R**.
@@ -51,13 +52,13 @@ To reproduce the analyses:
 
 ## Authors
 
-Luca Pizzoni
-Alessandro von Gal
-Andrea Di Piero
-Cecilia Guariglia
+Luca Pizzoni, 
+Alessandro von Gal, 
+Andrea Di Piero, 
+Cecilia Guariglia, 
 Laura Piccardi
 
-DiViNa Lab
+DiViNa Lab, 
 Spatial Cognition Lab  
 
 ---
