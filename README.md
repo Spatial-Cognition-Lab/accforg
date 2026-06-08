@@ -10,7 +10,7 @@ The repository includes:
 
 - Data used for statistical analyses  
 - R scripts for preprocessing and modeling  
-- Output files and figures (if applicable)  
+- Output files and figures
 
 ---
 
@@ -34,8 +34,8 @@ The pre-registration document specifies:
 ```text
 accforg/
 ├── data/        # Raw or processed data
-├── outputs/     # Figures and outputs
-├── alf_preliminary.R  # Main analysis script
+├── figures/     # Figures and outputs
+├── alf_analyses.R  # Main analysis script
 └── README.md
 ```
 ## Analysis
@@ -44,7 +44,7 @@ All analyses were conducted in **R**.
 
 To reproduce the analyses:
 
-1. Open `alf_preliminary.R` in R or RStudio  
+1. Open `alf_analyses.R` in R or RStudio  
 2. Set the working directory to the project root folder (`accforg/`)  
 3. Ensure required packages are installed  
 4. Run the script from top to bottom

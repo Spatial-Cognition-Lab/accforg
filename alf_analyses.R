@@ -7,7 +7,7 @@
 # Dependencies: R >= 4.0.0, metafor
 
 library(metafor)
-data<- read.csv("data/preliminary_dataset.csv")
+data<- read.csv("data/accforg_dataset.csv")
 
 r<- 0.5
 dat <- escalc(measure="SMCR", m1i=m_RAVLT_t2, m2i=m_RAVLT_t1, 
@@ -19,7 +19,7 @@ res <- rma(yi, vi, data=dat, method="REML")
 res
 
 
-par(mfrow=c(1,2))
+#par(mfrow=c(1,2))
 forest(res)
 funnel(res)
 
