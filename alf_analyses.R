@@ -49,3 +49,9 @@ regtest(res, model="rma")
 ####Descriptives####
 #total n
 sum(dat$n)
+
+
+####Obtain pooled SD for normative benchmarking####
+sd_pooled_t0 <- sqrt(sum((data$n - 1) * data$sd_RAVLT_t1^2, na.rm = TRUE) /
+                       sum((data$n - 1), na.rm = TRUE))
+sd_pooled_t0
